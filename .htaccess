@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Required（for test:s3838032,s3838032)"
+AuthUserFile ../../.htpasswd
+require valid-user.
