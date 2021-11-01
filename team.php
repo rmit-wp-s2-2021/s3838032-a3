@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/team.css">
 </head>
 <body>
-
+<?php require_once 'fragments/header.php' ?>
 <main>
     <div class="container">
         <div class="banner">
