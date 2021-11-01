@@ -1,3 +1,19 @@
+<?php
+//get api key
+$API_KEY = "EvqLxoV_r8wEjuBQUD7Lgkhh4CpDUJybMqQHxSH6pG0";
+// sydney Mercator projection
+$sydney = "11/1884/1229";
+// melbourne Mercator projection
+$melbourne = "9/462/314";
+// perth Mercator projection
+$perth = "12/3366/2432";
+// api prefix
+$prefix = 'https://1.base.maps.ls.hereapi.com/maptile/2.1/maptile/newest/normal.day/';
+// get maps
+$sydney_map = $prefix . $sydney . '/256/png8?apiKey=' . $API_KEY;
+$melbourne_map = $prefix . $melbourne . '/256/png8?apiKey=' . $API_KEY;
+$perth_map = $prefix . $perth . '/256/png8?apiKey=' . $API_KEY;
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
